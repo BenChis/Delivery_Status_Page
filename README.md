@@ -1,8 +1,9 @@
 # Freemote bootcamp second project
-First project for freemote bootcamp.
+Second project for freemote bootcamp.
 
-## Have a look at my implementation. Thanks for everyone's time who read over this short md.
+Have a look at my implementation. Thanks for everyone's time who read over this short md.
 
+## Used languages
 Used HTML CSS SASS
 Responsive for mobile and desktop
 
