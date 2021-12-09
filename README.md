@@ -1,5 +1,5 @@
 # Freemote bootcamp second project
-Second project for freemote bootcamp.
+Deliver status page for freemote bootcamp.
 
 Have a look at my implementation. Thanks for everyone's time who read over this short md.
 
