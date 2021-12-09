@@ -26,7 +26,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  background-image: url(../assets/ZigZag.svg);
+  background-image: url(./assets/ZigZag.svg);
   background-size: cover;
   min-height: 100vh;
   min-width: 100%; }
