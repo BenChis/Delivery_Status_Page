@@ -1,0 +1,61 @@
+.btn {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: var(--color-white-full);
+  font-weight: 700;
+  border-radius: $border-radius-standard-bigger;
+  cursor: pointer;
+
+  &--primary {
+    background-color: var(--color-primary);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 100%;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: var(--color-primary-tint);
+    }
+  }
+
+  &--secondary {
+    background-color: var(--color-secondary);
+    box-shadow: 0 20px 20px 0 rgba(167, 167, 167, 0.2);
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 100%;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: var(--color-grey);
+    }
+  }
+
+  &--tertiary {
+    color: var(--color-primary-shade-1);
+    position: relative;
+    justify-self: flex-start;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+    @include respond(desktop) {
+      font-size: 1.4rem;
+    }
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 0.1rem;
+      position: absolute;
+      bottom: 0.1rem;
+      left: 0;
+      background-color: currentColor;
+    }
+
+    &:hover:after {
+      opacity: 0;
+    }
+  }
+}

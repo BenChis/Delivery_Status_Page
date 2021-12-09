@@ -1,0 +1,32 @@
+.heading {
+  color: var(--color-black);
+
+  &--secondary {
+    font-size: 2.2rem;
+    font-weight: 500;
+    @media only screen and (min-width: 75em) {
+      font-size: 2.8rem;
+    }
+
+    & > span {
+      display: block;
+    }
+  }
+
+  &--tertiary {
+    font-size: 1.4rem;
+    font-weight: 700;
+    @media only screen and (min-width: 75em) {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: var(--color-grey);
+  @media only screen and (min-width: 75em) {
+    font-size: 1.4rem;
+  }
+}
